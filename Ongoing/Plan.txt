@@ -1,0 +1,72 @@
+segmentasi daya 
+daerah 
+dikelompokin ke up
+jenis mutasi
+segmentasi customer 
+semakin mengenal karakteristik pelanggan menjadi inovasi PLN dan 
+daerah yg berpotensi perumahan  
+
+kedepan electric kemnungkinan pln harus 
+resilent karena adaanya perusahaan swasta 
+
+expected result 
+inovasi ke PLN misalkan daerah satu pembangkit dari supply 
+kedepan pasti ada perkembangan mau dibikin
+ perumahan atau usaha mau menangulangi pasokan listrik PLN bisa ningkatin 
+prediksi 
+
+1. Bagaimana dampak penggunaan kombinasi metode 
+Customer Relationship Management dan Key Account Marketing 
+dalam mengukur segmentasi pelanggan?
+2. Seberapa efektif penerapan Key Account Marketing
+ dalam Customer Relationship Management?
+
+1. Membuat framework baru dengan menambahkan 
+Key Account Marketing dalam memprediksi segmentasi pelanggan.
+2. Meningkatkan efektifitas atau kecepatan dalam memprediksi 
+Customer Relationship Management dengan menambahkan 
+Key Account Marketing.
+
+SELECT COUNT(DISTINCT NAMA,DAYA)
+FROM plot
+WHERE daya=1385000
+
+SELECT COUNT(DISTINCT NAMA,TARIP)
+FROM PLOT1
+WHERE tarip='S3k'
+
+CREATE VIEW daerahdaya32 AS
+SELECT	NAMA_AP,NAMA_UP,NAMA,NAMAPNJ,DAYA
+FROM sorek_rutin_201901_13100
+WHERE DAYA=1385000
+
+CREATE VIEW percobaan AS
+SELECT	nama_ap,nama_up,nama,namapnj,daya,jamnyala,kdpembmeter,
+STATUS,  thblmut,slalwbp,sahlwbp,sahwbp,kwhlwbp,kwhwbp,blok3,
+rplwbp, rpwbp, rpblok3,rpbeban,rpbpju,rptrafo,rpsewatrafo, rppln,
+rptag,rptag_mat,rpsubsidi 
+FROM sorek_rutin_201901_13100
+WHERE DAYA=450 OR DAYA=900 OR DAYA=1300 OR DAYA=2200 
+OR DAYA=3500 OR DAYA=3900 OR DAYA=4400 OR DAYA=5500
+ OR DAYA=6600 OR DAYA=7700 OR DAYA=8600 OR DAYA=10500
+
+
+Plot daya
+Plot Tarif
+Plot daerah berdasarkan daya 
+Plot daerah berdasarkan tarip
+
+Segmentasi
+Rumah
+UMKM/ Industri Menengah 
+Industri Besar
+
+Tujuan Segmentasi Pelanggan
+1. meningkatkan pelayanan konsumen supaya lebih baik
+2. membuat strategi pemasaran dapat lebih terarah
+3. mengevaluasi target ke perumahan baru otomatis membutuhkan listrik
+
+
+Pemerataan alokasi tiap daerah daya memenuhin
+
+cluster analysis  rapidminer
